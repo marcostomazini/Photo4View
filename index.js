@@ -24,7 +24,7 @@ function getPhoto() {
 function read(qr)
 {
 	if (qr.length == 6) {
-		document.location = "https://photo4ffx.herokuapp.com/cliente/#" + qr;
+		document.location = "https://photo4ffx.herokuapp.com/cliente/?" + qr;
 	} else {
 		alert("QR Code Inválido");
 	}
