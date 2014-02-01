@@ -1,16 +1,20 @@
 {
-  "version" : "0.1",
-  "name": "Photo4View",
-  "description": "Compartilhamento de Fotos",
-  "launch_path": "/index.html",
-  "type": "privileged",
-  "icons": {
-    "60": "/favicon.ico",
-	  "128": "/favicon.ico"
-  },
-  "developer": {
-    "name": "Marcos Tomazini",
-    "url": "http://www.arquitetaweb.com"
-  },
-  "default_locale": "pt-br"
+    "version": "1",
+    "name": "Photo4View",
+    "launch_path": "/app.html",
+    "description": "A melhor e mais rapida maneira de mostrar suas fotos na tela de um amigo.",
+ 
+	"type": "privileged",
+ 
+    "icons": {
+        "16": "/images/app16.png",
+        "32": "/images/app32.png",
+        "64": "/images/app64.png",
+        "128": "/images/app128.png"
+    },
+    "developer": {
+        "name": "Marcos Tomazini",
+        "url": "http://arquitetaweb.com"
+    },
+    "default_locale": "pt-BR"
 }

@@ -1,5 +1,5 @@
 
-function getPhoto() {
+getPhoto = function() {
 	var getphoto = new MozActivity({
 	  name: "pick",
 	  data: {
@@ -17,11 +17,11 @@ function getPhoto() {
 	};
 
 	getphoto.onerror = function () { 
-		alert("deu erro");
+		//alert("deu erro");
 	};	
 }	
 
-function read(qr)
+read = function(qr)
 {
 	if (qr.length == 6) {
 		document.location = "https://photo4ffx.herokuapp.com/cliente/?" + qr;
@@ -29,3 +29,7 @@ function read(qr)
 		alert("QR Code Inválido");
 	}
 }	
+
+document.querySelector('#btnFoto').addEventListener ('click', function () {
+  getPhoto();
+});
